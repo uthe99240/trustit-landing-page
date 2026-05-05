@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
+    <title>TrustIT Solutions - Modern IT Services</title>
+    <meta
+      name="description"
+      content="TrustIT provides modern web development, mobile apps, and cloud solutions for growing businesses."
+    />
+    <meta
+      name="keywords"
+      content="web development, mobile apps, cloud solutions, IT services, software company"
+    />
+    <meta name="author" content="TrustIT Solutions" />
+
+    <!-- Open Graph (Facebook / LinkedIn) -->
+    <meta
+      property="og:title"
+      content="TrustIT Solutions - Modern IT Services"
+    />
+    <meta
+      property="og:description"
+      content="We build scalable web, mobile, and cloud solutions for businesses."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TrustIT Solutions" />
+    <meta
+      name="twitter:description"
+      content="Modern IT services for growing businesses."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/2721/2721268.png"
+    />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-slate-950 text-white">
+    <!-- NAVBAR -->
+    <header
+      class="fixed w-full top-0 z-50 backdrop-blur bg-white/10 border-b border-white/10"
+    >
+      <nav class="max-w-6xl mx-auto flex justify-between items-center p-4">
+        <h1 class="font-bold text-xl">
+          <a href="/" class="hover:text-cyan-400 transition"> TrustIT </a>
+        </h1>
+
+        <ul id="navLinks" class="hidden md:flex gap-6">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="flex gap-3 items-center">
+          <button id="darkToggle">🌙</button>
+          <button id="menuBtn" class="md:hidden text-2xl">☰</button>
+        </div>
+      </nav>
+
+      <div
+        id="mobileMenu"
+        class="hidden flex flex-col bg-slate-900 p-4 md:hidden gap-3"
+      >
+        <a href="#home" class="mobile-link py-2">Home</a>
+        <a href="#services" class="mobile-link py-2">Services</a>
+        <a href="#about" class="mobile-link py-2">About</a>
+        <a href="#contact" class="mobile-link py-2">Contact</a>
+      </div>
+    </header>
+
+    <section
+      id="home"
+      class="relative min-h-[85vh] md:min-h-screen flex items-center justify-center text-center px-6 py-10 md:py-0 bg-cover bg-center"
+      style="
+        background-image: url(&quot;https://images.unsplash.com/photo-1498050108023-c5249f4df085&quot;);
+      "
+    >
+      <!-- Overlay -->
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/80"
+      ></div>
+
+      <!-- Content -->
+      <div
+        class="relative z-10 max-w-2xl space-y-4 md:space-y-6 fade-in text-white"
+      >
+        <h1 class="text-3xl md:text-6xl font-bold leading-tight">
+          Build Future-Ready Digital Products
+        </h1>
+
+        <p class="text-base md:text-lg opacity-90">
+          We create scalable, high-performance solutions for modern businesses.
+        </p>
+
+        <a
+          href="#contact"
+          class="inline-block bg-cyan-500 px-5 py-3 md:px-6 md:py-3 rounded-full font-semibold hover:scale-105 transition"
+        >
+          Start Project
+        </a>
+      </div>
+    </section>
+
+    <section id="services" class="py-20 max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10 fade-in">Our Services</h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div
+          class="fade-in p-6 rounded-2xl bg-white/5 backdrop-blur hover:-translate-y-2 transition text-center"
+        >
+          <!-- ICON -->
+          <div class="flex justify-center mb-4 text-cyan-400">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M12 12a4 4 0 100-8 4 4 0 000 8z"
+              />
+            </svg>
+          </div>
+
+          <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+          <p>Modern responsive web apps using latest tech.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="fade-in p-6 rounded-2xl bg-white/5 backdrop-blur hover:-translate-y-2 transition text-center"
+        >
+          <div class="flex justify-center mb-4 text-cyan-400">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 18h.01M8 21h8a2 2 0 002-2V7H6v12a2 2 0 002 2z"
+              />
+            </svg>
+          </div>
+
+          <h3 class="text-xl font-semibold mb-2">Mobile Apps</h3>
+          <p>Cross-platform apps with great performance.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="fade-in p-6 rounded-2xl bg-white/5 backdrop-blur hover:-translate-y-2 transition text-center"
+        >
+          <div class="flex justify-center mb-4 text-cyan-400">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 7h18M3 12h18M3 17h18"
+              />
+            </svg>
+          </div>
+
+          <h3 class="text-xl font-semibold mb-2">Cloud Solutions</h3>
+          <p>Secure and scalable cloud infrastructure.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-20 bg-slate-900 px-6">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+        <div class="fade-in">
+          <h2 class="text-3xl font-bold mb-4">About Us</h2>
+          <p class="opacity-80">
+            We build high-quality digital products focusing on performance,
+            scalability, and user experience.
+          </p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
+          alt="About TrustIT team working on development"
+          class="rounded-2xl shadow-lg fade-in"
+        />
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-20 px-6">
+      <div class="max-w-xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 fade-in">Contact Us</h2>
+
+        <form id="contactForm" class="space-y-4 fade-in" novalidate>
+          <input
+            id="name"
+            type="text"
+            placeholder="Your Name"
+            class="w-full p-3 rounded bg-slate-800 border border-slate-700"
+          />
+          <p id="nameError" class="text-red-400 text-sm"></p>
+
+          <input
+            id="email"
+            type="email"
+            placeholder="Your Email"
+            class="w-full p-3 rounded bg-slate-800 border border-slate-700"
+          />
+          <p id="emailError" class="text-red-400 text-sm"></p>
+
+          <textarea
+            id="message"
+            placeholder="Your Message"
+            class="w-full p-3 rounded bg-slate-800 border border-slate-700"
+          ></textarea>
+          <p id="messageError" class="text-red-400 text-sm"></p>
+
+          <button
+            class="bg-cyan-500 px-6 py-3 rounded font-semibold hover:scale-105 transition"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-slate-950 border-t border-slate-800 py-10">
+      <div
+        class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6"
+      >
+        <!-- Brand -->
+        <div class="text-center md:text-left">
+          <h3 class="text-lg font-semibold text-white">TrustIT Solutions</h3>
+          <p class="text-sm text-slate-400 mt-1">
+            Modern IT solutions for growing businesses
+          </p>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="flex gap-4">
+          <!-- Facebook -->
+          <a
+            href="#"
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-blue-600 transition"
+          >
+            <svg
+              class="w-5 h-5 text-white"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22 12a10 10 0 10-11.5 9.95v-7.05h-2.1V12h2.1v-1.7c0-2.07 1.23-3.22 3.12-3.22.9 0 1.84.16 1.84.16v2.02h-1.04c-1.02 0-1.34.63-1.34 1.28V12h2.28l-.36 2.9h-1.92v7.05A10 10 0 0022 12z"
+              />
+            </svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a
+            href="#"
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-cyan-500 transition"
+          >
+            <svg
+              class="w-5 h-5 text-white"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0H12v2.2h.1c.6-1.1 2-2.2 4.1-2.2C20 8 22 10 22 14.2V24h-5v-8.5c0-2-.7-3.4-2.5-3.4s-2.7 1.4-2.7 3.4V24h-5V8z"
+              />
+            </svg>
+          </a>
+
+          <!-- WhatsApp -->
+          <a
+            href="https://wa.me/8801XXXXXXXXX"
+            target="_blank"
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-green-500 transition"
+          >
+            <svg
+              class="w-5 h-5 text-white"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20.52 3.48A11.91 11.91 0 0012.04 0C5.38 0 .02 5.37.02 12c0 2.12.55 4.18 1.6 5.99L0 24l6.23-1.63A11.94 11.94 0 0012.04 24C18.7 24 24 18.63 24 12c0-3.2-1.25-6.21-3.48-8.52zM12.04 21.8c-1.87 0-3.7-.5-5.29-1.44l-.38-.23-3.7.97.99-3.61-.25-.37a9.8 9.8 0 01-1.5-5.12c0-5.42 4.42-9.84 9.86-9.84 2.63 0 5.11 1.03 6.97 2.9A9.79 9.79 0 0121.9 12c0 5.42-4.42 9.8-9.86 9.8zm5.42-7.4c-.29-.15-1.73-.85-2--.95-.27-.1-.47-.15-.67.15-.2.29-.77.95-.94 1.14-.17.2-.34.22-.63.07-.29-.15-1.22-.45-2.33-1.43-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.29-.48.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.29-1.04 1.02-1.04 2.48s1.07 2.87 1.22 3.07c.15.2 2.1 3.2 5.1 4.49.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.09 1.73-.7 1.98-1.37.25-.67.25-1.25.17-1.37-.07-.12-.27-.2-.56-.34z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom line -->
+      <div class="text-center text-xs text-slate-500 mt-8">
+        © 2026 TrustIT Solutions. All rights reserved.
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuBtn = document.getElementById("menuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+
+      menuBtn.onclick = () => mobileMenu.classList.toggle("hidden");
+
+      document.querySelectorAll(".mobile-link").forEach((link) => {
+        link.onclick = () => mobileMenu.classList.add("hidden");
+      });
+
+      // Dark mode (persist)
+      const toggle = document.getElementById("darkToggle");
+      if (localStorage.theme === "light") {
+        document.body.classList.add("bg-white", "text-black");
+      }
+
+      toggle.onclick = () => {
+        document.body.classList.toggle("bg-white");
+        document.body.classList.toggle("text-black");
+
+        localStorage.theme = document.body.classList.contains("bg-white")
+          ? "light"
+          : "dark";
+      };
+
+      // Form validation
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          let valid = true;
+          const emailRegex = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+          const name = document.getElementById("name");
+          const email = document.getElementById("email");
+          const message = document.getElementById("message");
+
+          document.getElementById("nameError").textContent = "";
+          document.getElementById("emailError").textContent = "";
+          document.getElementById("messageError").textContent = "";
+
+          if (name.value.trim() === "") {
+            document.getElementById("nameError").textContent = "Name required";
+            valid = false;
+          }
+
+          if (!emailRegex.test(email.value)) {
+            document.getElementById("emailError").textContent = "Invalid email";
+            valid = false;
+          }
+
+          if (message.value.trim() === "") {
+            document.getElementById("messageError").textContent =
+              "Message required";
+            valid = false;
+          }
+
+          if (valid) {
+            alert("Message sent successfully!");
+            this.reset();
+          }
+        });
+
+      // Scroll animation
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          }
+        });
+      });
+
+      document
+        .querySelectorAll(".fade-in")
+        .forEach((el) => observer.observe(el));
+    </script>
+  </body>
+</html>
