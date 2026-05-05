@@ -38,7 +38,7 @@ The goal of this project is to demonstrate practical frontend development skills
 
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/uthe99240/trustit-landing-page
+   git clone https://uthe99240.github.io/trustit-landing-page/
 2. Open the project folder
 3. Run the project:
    Simply open index.html in your browser
