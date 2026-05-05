@@ -44,3 +44,5 @@ The goal of this project is to demonstrate practical frontend development skills
    Simply open index.html in your browser
    OR
    Use Live Server extension in VS Code for best experience
+
+### Live Demo Link : https://uthe99240.github.io/trustit-landing-page/
